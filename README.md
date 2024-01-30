@@ -39,10 +39,10 @@ This card for HomeAssistant allows you to see all your favorite Twitch streamers
 | `streams_image_size_width` | `string` | `3em` | Sets the size of the image. |
 | `streams_image_type` | `string` | `user` | Values can be `user` and `stream`. The first one will be the profile picture of the user/streamer and the second one a screenshot of the stream. See `streams_show_image` to hide it |
 | `streams_limit_count` | `int` | `100` | Can be used to limit the number of streams that will be displayed. Values can be between `0` and `100`. |
-| `streams_padding_bottom_size` | `string` | `0em` | Sets the paddings of the steams. |
-| `streams_padding_left_size` | `string` | `1em` | Sets the paddings of the steams. |
-| `streams_padding_right_size` | `string` | `1em` | Sets the paddings of the steams. |
-| `streams_padding_top_size` | `string` | `0em` | Sets the paddings of the steams. |
+| `streams_padding_bottom_size` | `string` | `0em` | Sets the paddings of the streams. |
+| `streams_padding_left_size` | `string` | `1em` | Sets the paddings of the streams. |
+| `streams_padding_right_size` | `string` | `1em` | Sets the paddings of the streams. |
+| `streams_padding_top_size` | `string` | `0em` | Sets the paddings of the streams. |
 | `streams_reduce_requests` | `bool` | `true` | Reduces the requests to the Twitch APIs and will reduce redrawing(flickering) on the Dashboard. May cause a little lag to the live data. Set it to `false` if data is to async to live. |
 | `streams_show_game` | `bool` | `true` | Shows or hides the name of the game. |
 | `streams_show_image` | `bool` | `true` | Shows or hides the image of the stream or the user. See `streams_image_type`. |
